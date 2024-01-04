@@ -17,7 +17,7 @@ jobs:
       - name: Run lint
         run: npm lint
       - name: End lint job
-        run: echo "End lint job
+        run: echo "End lint job"
   test:
     runs-on: ubuntu-latest
     steps:
